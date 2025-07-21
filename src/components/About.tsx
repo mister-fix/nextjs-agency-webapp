@@ -57,15 +57,6 @@ export default function About() {
           <h2 className="text-3xl md:text-4xl font-bold text-center text-primary tracking-tighter">About us</h2>
           <Button variant="outline" size="lg" className="rounded-full text-lg tracking-tighter shadow-none">Learn more</Button>
         </div>
-        {/* <div className="w-full flex flex-row justify-between items-start">
-          <div className="flex-1 mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-primary tracking-tighter">About Us</h2>
-            <p className="text-lg text-left text-muted-foreground mb-12">
-              Trueform Agency is a collective of designers, developers, and strategists passionate about building brands for the digital age. We believe in the power of collaboration and creativity to deliver exceptional results for our clients.
-            </p>
-          </div>
-          <Button variant="outline" size="lg" className="rounded-full text-lg tracking-tighter shadow-none">Read all blogs</Button>
-        </div> */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {team.map((member, i) => (
             <div
