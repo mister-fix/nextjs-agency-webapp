@@ -5,14 +5,14 @@ export default function Aside() {
         <aside className="w-full py-24 flex flex-row items-center justify-stretch">
             <div className="flex flex-row flex-nowrap gap-[40px] justify-start items-start content-start overflow-hidden py-0 px-4 md:px-12 relative w-full container-xl max-w-7xl h-min mx-auto">
                 <div className="bg-black p-14 rounded-xl opacity-100 flex shrink-0 flex-nowrap items-start justify-start overflow-hidden relative w-full">
-                    <div className="flex flex-col md:flex-row flex-nowrap shrink-0 basis-0 flex-1 overflow-visible p-0 z-3 gap-[38px] will-change-auto">
+                    <div className="h-[500px] md:h-auto flex flex-col md:flex-row flex-nowrap shrink-0 basis-0 flex-1 overflow-visible p-0 z-3 gap-[38px] will-change-auto">
                         <div className="flex flex-col flex-nowrap flex-1 shrink-0 basis-0 items-start content-start justify-between p-0 overflow-visible relative w-full z-3 min-h-full">
                             <div className="flex flex-col flex-nowrap items-start justify-center content-center gap-0 overflow-visible relative w-full max-h-full">
                                 <div className="outline-none flex flex-col justify-start shrink-0 text-white transform-none opacity-100">
-                                    <h2 className="text-6xl text-white text-left tracking-tighter font-semibold">Tired of sh*tty</h2>
+                                    <h2 className="text-6xl text-white text-left tracking-tighter font-semibold">Your web presence</h2>
                                 </div>
                                 <div className="outline-none flex flex-col justify-start shrink-0 text-white opacity-50 transform-none">
-                                    <h2 className="text-6xl text-white text-left tracking-tighter font-semibold">digital products.</h2>
+                                    <h2 className="text-6xl text-white text-left tracking-tighter font-semibold">done your way.</h2>
                                 </div>
                             </div>
                             <div className="flex-none h-auto w-auto opacity-70 absolute bottom-0 left-0">
@@ -23,7 +23,7 @@ export default function Aside() {
                                 </a>
                             </div>
                         </div>
-                        <div className="flex-1 flex justify-end opacity-100 [mask-image:linear-gradient(125deg,rgba(0,_0,_0,_0)_0%,rgb(0,0,0)_50%)] rotate-[-5deg] [inset:155px_56px_90px_58px]">
+                        <div className="hidden flex-1 md:flex justify-end opacity-100 [mask-image:linear-gradient(125deg,rgba(0,_0,_0,_0)_0%,rgb(0,0,0)_50%)] rotate-[-5deg] [inset:155px_56px_90px_58px]">
                             {/* <video src="https://framerusercontent.com/assets/KsUqgbzpTCYOU7oLgJj5dc76FPo.mp4" loop preload="auto" muted playsInline autoPlay className="cursor-auto w-100 h-100 rounded-none block object-cover bg-transparent object-center"></video> */}
                             <div className="relative h-[300px] w-[300px] perspective-1000">
                                 {/* Sphere */}
